@@ -52,6 +52,6 @@ def run(rows, cols, comment):
     print('# %s' % (comment))
     bfs([ tuple(range(rows * cols)) ], expand)
 
-run(3, 3, 'the 3x3 puzzle')
-run(5, 2, 'the 5x2 puzzle')
+# run(3, 3, 'the 3x3 puzzle')
+# run(5, 2, 'the 5x2 puzzle')
 run(5, 5, 'the 5x5 puzzle')
